@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Trivia Game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="jumbotron">
+		    <h1 class="text-center">Trivia Game!</h1>
+		    <h4 class="text-center"></h4>
+		</div>
+		<div id="wrapper">
+	      <div id="display">00:00</div>
+	      <!-- Div containing our stopwatch controls -->
+	      <div id="buttons">
+	        <button id="start">Click Here to Start the Game!</button>
+	      </div>
+	      <div id="laps"></div>
+	  	</div>
+    <!-- Script -->
+		<div class="container">
+			<div class="row">
+		  		<div class="col-lg-8" id="questionBlock">
+			      <div class="panel panel-default panel-custom">
+			        <div class="panel-heading">
+			          <h3 class="panel-title" id="question-holder">Question</h3>
+			        </div>
+			        <div class="panel-body text-center">
+			          <h1 id="answer1-holder">???</h1>
+			          <h1 id="answer2-holder">???</h1>
+			          <h1 id="answer3-holder">???</h1>
+			          <h1 id="answer4-holder">???</h1>
+
+			        </div>
+			      </div>
+				</div>
+			</div>	
+		</div>
+		<!-- jQuery -->
+    	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</body>
+</html>
