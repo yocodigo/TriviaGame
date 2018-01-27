@@ -1,9 +1,10 @@
 body {
-	background-image: url("../images/background3.jpg");
+	background-image: url("../images/background.jpg");
 }
 
 .jumbotron {
-	background-color: #e5620b;
+	background-image: url("../images/trivia2.jpg");
+	height: 200px;
 }
 
 .choice {
@@ -11,6 +12,21 @@ body {
 }
 
 #display {
+	font-family: monospace;
 	font-size: 40px;
-	font-weight: 40px;
+	color: red;
+	text-align: center;
+	background: black;
+	width: 150px;
+}
+
+#start {
+	height: 50px;
+	background: #424241;
+	color: #ffffff;
+}
+
+.panel-heading {
+	background: #424241 !important;
+	color: #ffffff !important;
 }
