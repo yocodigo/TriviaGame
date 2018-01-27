@@ -1,15 +1,16 @@
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background3.jpg");
 }
 
-/*#question, #start, #display, #questionblock {
-	p
-	margin: auto;
-    width: 50%;
-    padding: 10px;
+.jumbotron {
+	background-color: #e5620b;
 }
 
-#display, #start {
-	width: 250px;
-	text-align: center;	
-}*/
+.choice {
+	margin-right: 25px;
+}
+
+#display {
+	font-size: 40px;
+	font-weight: 40px;
+}
